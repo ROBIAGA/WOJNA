@@ -15,15 +15,13 @@ for i= 1:n
     ruch2=talia2(1)
     
     if ruch1>ruch2
-        talia1=[talia1 ruch2]
-        talia2=[talia2-ruch2]
-        ruch1=talia1(2)
-        ruch2=talia2(2)
+        talia1=[talia1(2:length(talia1) ruch2 ruch1]
+        talia2=[talia2 (2:length(talia2)]
+        
     elseif ruch1<ruch2
-        talia1=[talia1-ruch1]
-        talia2=[talia2 ruch1]
-        ruch1=talia1(2)
-        ruch2=talia2(2)
+        talia1=[talia1(2:length(talia1)]
+        talia2=[[talia2 (2:length(talia2) ruch2 ruch1]
+     
     elseif ruch1==ruch2
         ruch1=talia1(3)
         ruch2=talia2(3)
