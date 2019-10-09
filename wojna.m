@@ -30,7 +30,8 @@ talia1=talia1(3:length(talia1))
 talia2=talia2(3:length(talia2))
 
         end
-    else 
+    elseif
+        
         disp('koniec gry')
         
     end
